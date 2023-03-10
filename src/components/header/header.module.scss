@@ -5,8 +5,8 @@
 .container {
   @include Padding; //Mixin
   color: $white-color; //Variable
-  padding-top: 34px;
-  padding-bottom: 34px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   width: 100%;
   background-color: $purple-color;
   border-bottom: 0.5px solid $gray-color;
@@ -27,6 +27,11 @@
 
 .menu {
   font-size: 22px;
+
+  a:hover {
+    color: $yellow-color;
+    transition: 0.5s;
+  }
 
   a + a {
     margin-left: 38.9px;
