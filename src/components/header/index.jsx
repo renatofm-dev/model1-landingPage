@@ -23,7 +23,7 @@ const Header = () => {
       </div>
       <div className={Styles.space}></div>
       <div className={Styles.action}>
-        <Button title="Faça seu Orçamento " onClick={() => ScrollTo("contato")} />
+        <Button  title="Faça seu Orçamento " onClick={() => ScrollTo("contato")} />
       </div>
       <div className={Styles.actionMobile}>
         <Button title="Faça seu Orçamento " onClick={() => ScrollTo("contato")} />

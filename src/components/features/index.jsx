@@ -14,7 +14,7 @@ const Features = () => {
       <div className={Styles.features}>
         <div className={Styles.feature}>
           <Image src={Icon} alt="Icon" className={Styles.icon} />
-          <h1>Digital Strategy</h1>
+          <h1>Planejamento Patrimonial</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.
@@ -22,7 +22,7 @@ const Features = () => {
         </div>
         <div className={Styles.feature}>
           <Image src={Icon} alt="Icon" className={Styles.icon} />
-          <h1>Digital Strategy</h1>
+          <h1>Planejamento Sucessório</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.
@@ -30,7 +30,7 @@ const Features = () => {
         </div>
         <div className={Styles.feature}>
           <Image src={Icon} alt="Icon" className={Styles.icon} />
-          <h1>Digital Strategy</h1>
+          <h1>Proteção Patrimonial</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.
@@ -38,7 +38,7 @@ const Features = () => {
         </div>
         <div className={Styles.feature}>
           <Image src={Icon} alt="Icon" className={Styles.icon} />
-          <h1>Digital Strategy</h1>
+          <h1>Redução de Impostos</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.

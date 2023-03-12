@@ -8,9 +8,9 @@ const Welcome = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.text}>
-        <h1>Especialista em Holding Familiar</h1>
+        <h1>Planejamento Patrimonial Inteligente</h1>
         <p>
-          Planejamento Patrimonial Inteligente 
+           
         </p>
         <Button
           title="Faça Hoje seu Orçamento"
