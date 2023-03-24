@@ -1,0 +1,67 @@
+@import "/src/styles/mixins/padding.scss";
+@import "/src/styles/mixins/responsive.scss";
+@import "/src/styles/mixins/fonts.scss";
+@import "/src/styles/mixins/colors.scss";
+
+.container {
+    @include Padding;
+    height: 100vh;
+    padding-top: 219px;
+    background-image: url("/images/BG__ESPECIALISTA__3.png");
+    background-repeat: no-repeat;
+    background-size: cover; //rever
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include Phone {
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+        background-image: url("/images/BG__ESPECIALISTA__3.png");
+        background-position: 75%;
+        background-size: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+      }
+    
+      @include Tablet {
+        height: 100%;
+        margin-bottom: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+      }
+    
+      @include Laptop {
+        padding-top: 6rem;
+      }
+}
+
+.text {
+    @include Phone{
+        display: grid;
+        justify-content: space-between
+    }
+    h1 {
+      @include SizeExtra;
+      font-weight: bold;
+      @include Phone {
+        padding-top: 30rem;
+        color: $yellow-color;
+        font-size: 3rem;
+      }
+    }
+  
+    p {
+      @include SizeNormal;
+      opacity: 0.9;
+      @include Phone {
+       padding-bottom: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+  

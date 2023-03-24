@@ -10,6 +10,9 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  // background-image: url("/images/BACKGROUND__FEATURES.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 
   h1 {
     @include SizeLarge;
@@ -29,15 +32,19 @@
   }
 
   @include Phone {
+    background-image: url("/images/BG__FEATURES__MOBILE.png");
+    
     padding-bottom: 6rem;
 
     p {
       margin-bottom: 2rem;
+      
     }
 
     h1,
     p {
       width: 100%;
+      
     }
   }
 
@@ -68,7 +75,7 @@
 
 .feature {
   max-width: 509px;
-  max-height: 347px;
+  max-height: 400px;
   width: 100%;
   height: 100%;
   padding: 32px 35px;
@@ -84,7 +91,7 @@
   }
 
   p {
-    @include SizeSmall;
+    @include SizeNormal;
     color: $gray2-color;
     width: auto;
     text-align: left;

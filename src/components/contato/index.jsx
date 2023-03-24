@@ -78,7 +78,7 @@ const Contato = () => {
           </p>
         </div>
         <div className={Styles.form}>
-          <h1>Fale com um especialista</h1>
+          <h1>Fale com um Especialista</h1>
 
           <form id="formulario" onSubmit={formik.handleSubmit}>
             <Input
@@ -95,7 +95,7 @@ const Contato = () => {
               id="email"
               name="email"
               type="email"
-              placeholder="E-mail profissional"
+              placeholder="E-mail"
               onBlur={formik.handleBlur}
               onChange={formik.handleChange}
               value={formik.values.email}
@@ -112,7 +112,7 @@ const Contato = () => {
               value={formik.values.phone}
               required
             />
-            <Input
+            {/* <Input
               id="website"
               name="website"
               type="text"
@@ -121,14 +121,19 @@ const Contato = () => {
               onChange={formik.handleChange}
               value={formik.values.website}
               required
-            />
+            /> */}
             <Select
               id="midia"
               name="midia"
-              placeholder="Orçamento para mídia"
+              placeholder="Patrimônio Aproximado"
               options={[
-                { label: "Instagram", value: "instagram" },
-                { label: "Facebook", value: "facebook" },
+                { label: "Menos de R$ 1.000.000", value: "menosde1milhao" },
+                { label: "R$ 1.000.000", value: "1milhao" },
+                { label: "R$ 3.000.000", value: "3milhoes" },
+                { label: "R$ 5.000.000", value: "5milhoes" },
+                { label: "R$ 10.000.000", value: "10milhoes" },
+                { label: "Mais de R$ 10.000.000", value: "maisde10milhoes" },
+                { label: "Não Informar", value: "naoinformar" },
               ]}
               onChange={formik.handleChange}
               value={formik.values.midia}

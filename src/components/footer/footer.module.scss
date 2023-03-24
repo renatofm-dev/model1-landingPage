@@ -6,14 +6,21 @@
 .container {
   @include Padding;
   padding-top: 72px;
-  background-color: $purple3-color;
+  background-color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  
 
   @include Phone {
     grid-template-columns: 1fr;
     padding-top: 1rem;
     gap: 1rem;
+    text-align: center;
+  }
+  @include Tablet {
+    gap: 1rem;
+    height: 10vw;
   }
 }
 
@@ -30,12 +37,12 @@
   }
 
   h1 {
-    @include SizeSmall;
+    @include SizeNormal;
     color: $yellow-color;
   }
 
   p {
-    @include SizeSmall;
+    @include SizeNormal;
   }
 
   &.alignRight {
@@ -54,13 +61,15 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
   }
 
   @include Phone {
-    margin-top: 0px;
+    margin-top: 1px;
+    
 
     &.alignRight {
-      text-align: left;
+      text-align: center;
     }
   }
 }
@@ -74,5 +83,6 @@
 
   @include Phone {
     grid-column: 1;
+    text-align: center;
   }
 }

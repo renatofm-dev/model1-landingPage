@@ -1,4 +1,5 @@
 import Contato from "../components/contato";
+import Especialista from "../components/especialista";
 import Features from "../components/features";
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -12,6 +13,7 @@ export default function Home() {
       <Welcome />
       <Features />
       <Contato />
+      <Especialista />
       <Footer />
     </div>
   );

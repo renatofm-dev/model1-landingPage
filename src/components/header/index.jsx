@@ -17,13 +17,13 @@ const Header = () => {
         
       </div>
       <div className={Styles.menu}>
-        <Link href="/">Home</Link>
-        <Link href="/">O que fazemos</Link>
-        <Link href="/">Cases</Link>
+        <Link scroll={true} href="/">Home</Link>
+        <Link href="/#especialista">Nosso Especialista</Link>
+        <Link href="https://hsblog.com.br/">Blog</Link>
       </div>
       <div className={Styles.space}></div>
       <div className={Styles.action}>
-        <Button  title="Faça seu Orçamento " onClick={() => ScrollTo("contato")} />
+        <Button  title="Fale com um Especialista " onClick={() => ScrollTo("especialista")} />
       </div>
       <div className={Styles.actionMobile}>
         <Button title="Faça seu Orçamento " onClick={() => ScrollTo("contato")} />
