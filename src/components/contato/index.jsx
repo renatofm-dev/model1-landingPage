@@ -21,7 +21,7 @@ const Contato = () => {
       name: "",
       email: "",
       phone: "",
-      website: "",
+      // website: "",
       midia: "",
     },
     validationSchema: Yup.object({
@@ -32,7 +32,7 @@ const Contato = () => {
       phone: Yup.string()
         .matches("", "Digite um telefone válido")
         .required("Campo Obrigatório"),
-      website: Yup.string().required("Campo Obrigatório"),
+      // website: Yup.string().required("Campo Obrigatório"),
       midia: Yup.string().required("Campo Obrigatório"),
     }),
     validateOnChange: false,
@@ -43,10 +43,11 @@ const Contato = () => {
   /*   formik?.errors -> Pode ser utilizado para dar feedback no campo e para o usuario*/
 
   const handleSubmitForm = (values) => {
+    console.log('teste', values);
     setLoading(true);
     axios
       .post("/api/sendEmail", {
-        messageBody: `Nome: ${values.name}, Email: ${values.email}, Telefone: ${values.phone}, Site: ${values.website}, Midia: ${values.midia}`,
+        messageBody: `Nome: ${values.name}, Email: ${values.email}, Telefone: ${values.phone}, Patrimônio: ${values.midia}`,
       })
       .then(() => {
         formik.resetForm();

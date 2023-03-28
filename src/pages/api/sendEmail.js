@@ -13,8 +13,8 @@ export default async function handler(req, res) {
   try {
     const message = await client.sendAsync({
       text: messageBody,
-      from: "acadamyfront595@gmail.com",
-      to: "acadamyfront595@gmail.com",
+      from: "leadhsb@gmail.com",
+      to: "leadhsb@gmail.com",
       subject: "Lead - Landingpage",
     });
     console.log(message);

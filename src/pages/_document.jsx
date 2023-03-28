@@ -6,6 +6,8 @@ class MyDocument extends Document {
       <Html className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
+          
+          
           <link
             rel="preconnect"
             href="https://fonts.gstatic.com"
