@@ -46,6 +46,7 @@
 }
 
 .action {
+
   text-align: end;
 
   @include Phone {
@@ -56,6 +57,7 @@
     display: none;
   }
 }
+
 
 .logotipo {
   @include Phone {

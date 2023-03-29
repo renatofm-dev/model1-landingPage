@@ -50,8 +50,9 @@
       font-weight: bold;
       @include Phone {
         padding-top: 30rem;
-        color: $yellow-color;
-        font-size: 3rem;
+        color: $white-color;
+        font-size: 2rem;
+        text-shadow: 0 0 3px $gray2-color, 0 0 3rem  $yellow-color;
       }
     }
   

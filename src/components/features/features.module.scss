@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
 
   .headerfeatures{
-    text-shadow: 0 0 3px $gray2-color, 0 0 1.5rem $yellow-color;
+    text-shadow: 0 0 3px $gray2-color, 0 0 3rem  $yellow-color;
     
   }
 
@@ -80,6 +80,8 @@
 
 .feature {
   max-width: max-content;
+  box-shadow:  -0em 0em 3em 0.1em $yellow-color;
+  // box-shadow: 3px 3px $gray2-color, -2em 0.5em 5em 1em $yellow-color;
   max-height: max-content;
   width: 90%;
   height: 90%;
@@ -103,6 +105,7 @@
   }
 
   @include Phone {
+    box-shadow:  0em 0em 1.5em 0.1em $yellow-color;
     width: 100%;
     height: 100%;
     padding: 20px;

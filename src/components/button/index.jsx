@@ -21,7 +21,7 @@ const Button = ({ title, kind, onClick, type }) => {
       className={`${Styles.button} ${generationClassByKind()}`}
       onClick={onClick}
     >
-      {title}
+      {title}  
     </button>
   );
 };
