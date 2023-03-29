@@ -11,7 +11,7 @@ import { Loading } from "../loading/index";
 import { SuccessModal } from "../successModal";
 import { FailModal } from "../failModal/index";
 
-const Contato = () => {
+const Contato = () => { 
   const [isloading, setLoading] = useState(false);
   const [successModal, setModalSuccess] = useState(false);
   const [failModal, setFailModal] = useState(false);
@@ -79,7 +79,7 @@ const Contato = () => {
           </p>
         </div>
         <div className={Styles.form}>
-          <h1>Fale com um Especialista</h1>
+          <h1>Faça seu orçamento com um especialista</h1>
 
           <form id="formulario" onSubmit={formik.handleSubmit}>
             <Input

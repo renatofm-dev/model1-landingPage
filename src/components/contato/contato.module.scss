@@ -33,6 +33,7 @@
   }
 
   h1 {
+    text-shadow: 0 0 1rem $gray2-color, 0 0 1.5rem $yellow-color;
     @include SizeLarge;
     font-weight: bold;
   }

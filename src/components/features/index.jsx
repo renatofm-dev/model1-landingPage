@@ -7,7 +7,7 @@ import Icon2 from "/public/images/Icone-03.svg";
 const Features = () => {
   return (
     <div className={Styles.container}>
-      <h1>Soluções Personalizadas e Eficazes para Preservar seu Patrimônio.</h1>
+      <h1 className={Styles.headerfeatures}>Soluções Personalizadas para Preservar seu Patrimônio</h1>
       <p>
         Equipe capacitada em Brasília, Garantimos o seu Sucesso Financeiro.
         Faça seu Orçamento com um Especialista.

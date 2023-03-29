@@ -15,7 +15,7 @@ const Especialista = () => {
             Ele possui vasta experiência profissional em diversas causas complexas envolvendo grandes famílias e empresas.
         </p>
         <Button
-          title="Fale com um Especialista"
+          title="Conheça nosso Especialista"
           kind="secundary"
           onClick={() => ScrollTo("contato")}
         />
