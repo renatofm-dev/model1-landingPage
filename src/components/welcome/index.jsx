@@ -8,9 +8,7 @@ const Welcome = () => {
       <div className={Styles.text}>
         <h1>Planejamento Patrimonial Inteligente</h1>
         <p>
-          O sistema Holding é o unico capaz de proteger seu patrimônio, impulsionar o crescimento 
-          dos seus investimentos e garantir que seu legado financeiro seja transmitido de forma segura
-          para as futuras gerações.
+        Proteja seu patrimônio e garanta seu legado financeiro com segurança para as futuras gerações através do sistema Holding.
         </p>
         <Button 
           title="Faça Hoje seu Orçamento"

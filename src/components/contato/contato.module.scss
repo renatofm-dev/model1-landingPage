@@ -30,10 +30,11 @@
     @include SizeNormal;
     font-weight: 600;
     color: $yellow-color;
+    text-shadow: 0 0 1rem $gray2-color, 0 2px 1.5rem $yellow-color
   }
 
   h1 {
-    text-shadow: 0 0 1rem $gray2-color, 0 0 1.5rem $yellow-color;
+    text-shadow: 0 0 1rem $gray2-color, 0 2px 1.5rem $blue3-color;
     @include SizeLarge;
     font-weight: bold;
   }
@@ -53,7 +54,7 @@
   border-radius: 10px;
 
   h1 {
-    color: $purple-color;
+    color: $blue-color;
     font-weight: bold;
     @include SizeMedium;
   }

@@ -7,7 +7,7 @@
   @include Padding;
   height: 100vh;
   padding-top: 219px;
-  background-image: url("/images/BACKGROUND__WELCOME_4.png");
+  background-image: url("/images/BACKGROUND__WELCOME__LP4.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -15,13 +15,13 @@
 
 
   @include Phone {
-    height: 100%;
+    height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: max-content;
-    background-image: url("/images/BACKGROUND__WELCOME_4.png");
+    background-image: url("/images/BACKGROUND__WELCOME__LP3 (4).png");
     background-position: 80%;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    // padding-top: 5rem;
+    // padding-bottom: 10rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -43,26 +43,28 @@
   display: block;
   h1 {
     @include SizeExtra;
-    text-shadow: 0 0 1rem $gray2-color, 0 0 1.5rem $yellow-color;
+    text-shadow: 0 3px 1rem $gray2-color, 0 3px 2rem $blue3-color;
 
     @include Phone {
-      text-shadow: 0 0 1rem $gray2-color, 0 0 1.5rem $yellow-color;
+      text-shadow: 0 3px 1rem $gray2-color, 0 0 1.5rem $yellow-color;
       font-size: 2rem;
       color: white;
-      padding-top: 8rem;
+      padding-top: 10rem;
+      
     }
   }
 
   p {
     @include SizeNormal;
-    text-shadow: 0 0 1rem $gray2-color, 0 0 1.5rem $yellow-color;
+    text-shadow: 0 0 1rem $gray2-color, 0 0 1.5rem $blue3-color;
     opacity: 1;
     @include Phone {
       // text-shadow: 2px 1px $yellow-color;
-      text-shadow: 0 0 3px $gray2-color, 0 0 1.5rem $yellow-color;
+      text-shadow: 0 3px 3px $gray2-color, 0 0 1.5rem $yellow-color;
       font-size: 1.2rem;
       font-weight: 400;
       color: #fefefe;
+      margin-bottom: 2rem;
     }
     
   }

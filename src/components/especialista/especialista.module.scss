@@ -7,7 +7,7 @@
     @include Padding;
     height: 100vh;
     padding-top: 219px;
-    background-image: url("/images/BG__ESPECIALISTA__3.png");
+    background-image: url("/images/BG__ESPECIALISTA__1 (2).png");
     background-repeat: no-repeat;
     background-size: cover; //rever
     display: grid;
@@ -17,7 +17,7 @@
         height: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: max-content;
-        background-image: url("/images/BG__ESPECIALISTA__3.png");
+        background-image: url("/images/BG__ESPECIALISTA__1 (2).png");
         background-position: 75%;
         background-size: auto;
         padding-top: 2rem;
@@ -49,10 +49,10 @@
       @include SizeExtra;
       font-weight: bold;
       @include Phone {
-        padding-top: 30rem;
+        padding-top: 20rem;
         color: $white-color;
-        font-size: 2rem;
-        text-shadow: 0 0 3px $gray2-color, 0 0 3rem  $yellow-color;
+        font-size: 2.3rem;
+        text-shadow: 0 0 3px $gray2-color, 0 0 3rem  $blue3-color;
       }
     }
   
@@ -60,6 +60,7 @@
       @include SizeNormal;
       opacity: 0.9;
       @include Phone {
+        font-size: 1.1rem;
        padding-bottom: 1rem;
         font-weight: 300;
       }
