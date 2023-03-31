@@ -48,6 +48,7 @@
     h1 {
       @include SizeExtra;
       font-weight: bold;
+      text-shadow: 0 3px 1rem $gray2-color, 0 3px 1.5rem $blue3-color;
       @include Phone {
         padding-top: 20rem;
         color: $white-color;
